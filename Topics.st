@@ -17,8 +17,8 @@ don't forget to separate topics as statements with periods
 
 PharoTopic new
     title: 'Better and more refactorings for Pharo';
-    contact: 'christophe.demarey@inria.fr, pablo.tesone@inria.fr';
-    supervisors: 'Christophe Demarey, Pablo Tesone';
+    contact: 'christophe.demarey@inria.fr, pablo.tesone@inria.fr, juampiboy@gmail.com';
+    supervisors: 'Christophe Demarey, Pablo Tesone, Juan Pablo Sandoval A';
     keywords: 'Refactoring IDE';
     context: 'Smalltalk was the first environment to have such great refactorings that inspired a lot of languages and book authors. Unfortunately, refactoring support lowered in quality and some of them are now missing in Pharo.';
     goal: 'The goal of this project is to provide Pharo developers a good refactoring support, comparable to modern IDEs like IDEA Intellij. See https://github.com/pharo-project/pharo-project-proposals/blob/master/refactoring.md for a detailed list of tasks.';
@@ -207,7 +207,7 @@ PharoTopic new
     supervisors: 'Juan Pablo Sandoval Alcocer';
     keywords: 'commit, visualization, iceberg';
     context: 'Iceberg provides tools for handling git repositories directly from a Pharo Image.  Besides the facilities provided by Iceberg, there is a lot room for improvement.';
-    goal: 'The goal of this project is to provide a commit graph visualization for improving the commit navigation and comparison, such the ones offered by popular git clients (i.e. GitKraken).';
+    goal: 'The goal of this project is to provide a commit graph visualization for improving the commit navigation and comparison, such the ones offered by popular git clients (i.e. GitKraken). The commit graph must  provide: interactions to manipulate commits (i.e. inspect, basic merge, committing, switch to another branch); support a no lineal-history; use branches to keep track different code paths, among others. Student's ideas are also welcome.';
     level: 'Beginner to Intermediate';
     yourself.
        		
